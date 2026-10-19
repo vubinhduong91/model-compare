@@ -1,0 +1,149 @@
+# Danh sách model được so sánh + cách tìm model đó ở từng nguồn dữ liệu.
+# Models being compared + how to find each one in every data source.
+#
+# Thêm model mới / add a model:
+#   1. Thêm một block [[models]] bên dưới.
+#   2. Điền id của model ở từng nguồn (bỏ trống nếu nguồn đó không có model này):
+#        openrouter      : id trên https://openrouter.ai/models (vd. "z-ai/glm-5.3")
+#        openrouter_first_party : tên provider chính hãng trong danh sách endpoints (lấy giá niêm yết)
+#        aa_slug         : phần cuối URL https://artificialanalysis.ai/models/<slug>
+#        tbench_model    : tên model trên https://www.tbench.ai/leaderboard (cột Model)
+#        vals_href       : link model trên https://www.vals.ai/benchmarks/swebench (vd. "/models/zai_glm-5.3")
+#        arena_name      : tên model trên https://arena.ai/leaderboard/webdev (điểm nhập tay ở data/manual.toml)
+#   3. Chạy: python scripts/update.py
+#
+# group:
+#   anchor = mốc so sánh, peer = cùng tầm, flash = bản giá rẻ, closed = model đóng làm mốc tham chiếu
+
+[[models]]
+id = "glm-5.3"
+name = "GLM-5.3"
+vendor = "Z.ai (Zhipu)"
+group = "anchor"
+openrouter = "z-ai/glm-5.3"
+openrouter_first_party = "Z.AI"
+aa_slug = "glm-5-3"
+tbench_model = "GLM-5.3"
+vals_href = "/models/zai_glm-5.3"
+arena_name = "glm-5.3"
+
+[[models]]
+id = "kimi-k3"
+name = "Kimi K3"
+vendor = "Moonshot AI"
+group = "peer"
+openrouter = "moonshotai/kimi-k3"
+openrouter_first_party = "Moonshot AI"
+aa_slug = "kimi-k3"
+vals_href = "/models/kimi_kimi-k3"
+arena_name = "kimi-k3"
+
+[[models]]
+id = "deepseek-v4-pro"
+name = "DeepSeek V4 Pro (0813)"
+vendor = "DeepSeek"
+group = "peer"
+openrouter = "deepseek/deepseek-v4-pro-0813"
+openrouter_first_party = "DeepSeek"
+aa_slug = "deepseek-v4-pro"
+vals_href = "/models/deepseek_deepseek-v4-pro-0813"
+arena_name = "deepseek-v4-pro"
+
+[[models]]
+id = "minimax-m3"
+name = "MiniMax M3"
+vendor = "MiniMax"
+group = "peer"
+openrouter = "minimax/minimax-m3"
+openrouter_first_party = "Minimax"
+aa_slug = "minimax-m3"
+vals_href = "/models/minimax_MiniMax-M3"
+arena_name = "minimax-m3"
+
+[[models]]
+id = "qwen3.8-max"
+name = "Qwen3.8 Max"
+vendor = "Alibaba (Qwen)"
+group = "peer"
+openrouter = "qwen/qwen3.8-max-0902"
+openrouter_first_party = "Alibaba"
+aa_slug = "qwen3-8-max"
+tbench_model = "Qwen3.8-Max-0902"
+vals_href = "/models/alibaba_qwen3.8-max"
+arena_name = "qwen3.8-max"
+
+[[models]]
+id = "mimo-v2.6-pro"
+name = "MiMo-V2.6-Pro"
+vendor = "Xiaomi"
+group = "peer"
+openrouter = "xiaomi/mimo-v2.6-pro"
+openrouter_first_party = "Xiaomi"
+aa_slug = "mimo-v2-6-pro"
+arena_name = "mimo-v2.6-pro"
+
+[[models]]
+id = "glm-5.3-flash"
+name = "GLM-5.3-Flash"
+vendor = "Z.ai (Zhipu)"
+group = "flash"
+openrouter = "z-ai/glm-5.3-flash"
+openrouter_first_party = "Z.AI"
+aa_slug = "glm-5-3-flash"
+tbench_model = "GLM-5.3-Flash"
+vals_href = "/models/zai_glm-5.3-flash"
+arena_name = "glm-5.3-flash"
+
+[[models]]
+id = "deepseek-v4.1-flash"
+name = "DeepSeek V4.1 Flash (1017)"
+vendor = "DeepSeek"
+group = "flash"
+openrouter = "deepseek/deepseek-v4.1-flash-1017"
+openrouter_first_party = "DeepSeek"
+aa_slug = "deepseek-v4-1-flash-1017"
+arena_name = "deepseek-v4.1-flash"
+
+[[models]]
+id = "gemini-3.8-flash"
+name = "Gemini 3.8 Flash"
+vendor = "Google"
+group = "flash"
+openrouter = "google/gemini-3.8-flash"
+openrouter_first_party = "Google"
+aa_slug = "gemini-3-8-flash"
+tbench_model = "Gemini 3.8 Flash"
+vals_href = "/models/google_gemini-3.8-flash"
+arena_name = "gemini-3.8-flash"
+
+[[models]]
+id = "claude-sonnet-5.5"
+name = "Claude Sonnet 5.5"
+vendor = "Anthropic"
+group = "closed"
+openrouter = "anthropic/claude-sonnet-5.5"
+openrouter_first_party = "Anthropic"
+aa_slug = "claude-sonnet-5-5"
+tbench_model = "Sonnet 5.5"
+arena_name = "claude-sonnet-5.5"
+
+[[models]]
+id = "gpt-6.1-sol"
+name = "GPT-6.1 Sol"
+vendor = "OpenAI"
+group = "closed"
+openrouter = "openai/gpt-6.1-sol"
+openrouter_first_party = "OpenAI"
+aa_slug = "gpt-6-1-sol"
+tbench_model = "GPT-6.1 Sol"
+arena_name = "gpt-6.1-sol"
+
+[[models]]
+id = "gemini-4-argon"
+name = "Gemini 4 Argon"
+vendor = "Google"
+group = "closed"
+openrouter = "google/gemini-4-argon"
+openrouter_first_party = "Google"
+aa_slug = "gemini-4-argon"
+arena_name = "gemini-4-argon"
