@@ -1,0 +1,67 @@
+{
+ "data": {
+  "benchmark": "SWE-bench Verified",
+  "harness": "Mini-SWE-agent",
+  "models": {
+   "/models/alibaba_qwen3.8-max": {
+    "accuracy": 85.6,
+    "cost_per_test": 1.13,
+    "duration": "41m42s",
+    "harness": "Mini-SWE-agent",
+    "listed_price": "$2 / $6",
+    "name": "Qwen 3.8 Max"
+   },
+   "/models/deepseek_deepseek-v4-pro-0813": {
+    "accuracy": 96.4,
+    "cost_per_test": 0.1,
+    "duration": "4m00s",
+    "harness": "Mini-SWE-agent",
+    "listed_price": "$1.32 / $3.96",
+    "name": "DeepSeek V4 Pro 0813"
+   },
+   "/models/google_gemini-3.8-flash": {
+    "accuracy": 80.0,
+    "cost_per_test": 2.19,
+    "duration": "11m23s",
+    "harness": "Mini-SWE-agent",
+    "listed_price": "$1.5 / $7.5",
+    "name": "Gemini 3.8 Flash"
+   },
+   "/models/kimi_kimi-k3": {
+    "accuracy": 93.4,
+    "cost_per_test": 0.76,
+    "duration": "10m19s",
+    "harness": "Mini-SWE-agent",
+    "listed_price": "$3 / $15",
+    "name": "Kimi K3"
+   },
+   "/models/minimax_MiniMax-M3": {
+    "accuracy": 75.0,
+    "cost_per_test": 0.42,
+    "duration": "12m06s",
+    "harness": "Mini-SWE-agent",
+    "listed_price": "$0.6 / $2.4",
+    "name": "MiniMax-M3"
+   },
+   "/models/zai_glm-5.3": {
+    "accuracy": 95.4,
+    "cost_per_test": 0.34,
+    "duration": "14m01s",
+    "harness": "Mini-SWE-agent",
+    "listed_price": "$1.4 / $4.4",
+    "name": "GLM 5.3"
+   },
+   "/models/zai_glm-5.3-flash": {
+    "accuracy": 92.0,
+    "cost_per_test": 0.02,
+    "duration": "1h04m",
+    "harness": "Mini-SWE-agent",
+    "listed_price": "$0.075 / $0.25",
+    "name": "GLM 5.3 Flash"
+   }
+  },
+  "page_updated": "9/1/2026"
+ },
+ "fetched_at": "2026-10-19T07:29:22+00:00",
+ "source_url": "https://www.vals.ai/benchmarks/swebench"
+}

@@ -1,0 +1,75 @@
+{
+ "data": {
+  "benchmark": "Terminal-Bench 4.0",
+  "models": {
+   "GLM-5.3": [
+    {
+     "accuracy": 41.82,
+     "agent": "Claude Code",
+     "ci95": 3.23,
+     "date": "2026-08-14",
+     "n_trials": 330,
+     "reasoning_effort": "max",
+     "total_cost_usd": 2727.63
+    }
+   ],
+   "GLM-5.3-Flash": [
+    {
+     "accuracy": 35.76,
+     "agent": "Claude Code",
+     "ci95": 3.54,
+     "date": "2026-08-26",
+     "n_trials": 330,
+     "reasoning_effort": "none",
+     "total_cost_usd": 2883.11
+    }
+   ],
+   "GPT-6.1 Sol": [
+    {
+     "accuracy": 58.18,
+     "agent": "Codex",
+     "ci95": 3.11,
+     "date": "2026-09-29",
+     "n_trials": 330,
+     "reasoning_effort": "max",
+     "total_cost_usd": 634.24
+    }
+   ],
+   "Gemini 3.8 Flash": [
+    {
+     "accuracy": 19.09,
+     "agent": "mini-SWE-agent",
+     "ci95": 3.36,
+     "date": "2026-09-02",
+     "n_trials": 330,
+     "reasoning_effort": "high",
+     "total_cost_usd": 1828.77
+    }
+   ],
+   "Qwen3.8-Max-0902": [
+    {
+     "accuracy": 26.97,
+     "agent": "Claude Code",
+     "ci95": 3.78,
+     "date": "2026-09-02",
+     "n_trials": 330,
+     "reasoning_effort": "max",
+     "total_cost_usd": 4635.67
+    }
+   ],
+   "Sonnet 5.5": [
+    {
+     "accuracy": 61.82,
+     "agent": "Claude Code",
+     "ci95": 2.94,
+     "date": "2026-09-28",
+     "n_trials": 330,
+     "reasoning_effort": "max",
+     "total_cost_usd": 7333.64
+    }
+   ]
+  }
+ },
+ "fetched_at": "2026-10-19T07:36:39+00:00",
+ "source_url": "https://www.tbench.ai/leaderboard"
+}

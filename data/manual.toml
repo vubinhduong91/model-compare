@@ -1,0 +1,40 @@
+# Số liệu nhập tay (nguồn chặn truy cập tự động) — mỗi block ghi rõ URL + ngày kiểm tra.
+# Manually entered data (sources that block scripts) — every block records URL + check date.
+#
+# Cập nhật: mở URL, sửa số, đổi checked = ngày hôm nay, chạy `python scripts/build.py`.
+
+# --- WebDev Arena (arena.ai, trước đây là LMArena) -----------------------------
+# Điểm Elo từ bình chọn mù của người dùng thật khi so 2 model làm web app.
+# Lấy biến thể (effort) có điểm cao nhất của mỗi model. ci = ±khoảng tin cậy 95%.
+[arena_webdev]
+url = "https://arena.ai/leaderboard/code/webdev"
+checked = 2026-10-19
+
+[arena_webdev.scores]
+"glm-5.3"             = { score = 1622, ci = 8,  votes = 9773,  rank = 23, variant = "GLM-5.3 (Max)" }
+"kimi-k3"             = { score = 1655, ci = 6,  votes = 19481, rank = 15, variant = "Kimi K3 (Max)" }
+"deepseek-v4-pro"     = { score = 1582, ci = 9,  votes = 4715,  rank = 35, variant = "DeepSeek-V4-Pro (High, 20260813)" }
+"minimax-m3"          = { score = 1482, ci = 6,  votes = 19715, rank = 65, variant = "MiniMax-M3" }
+"qwen3.8-max"         = { score = 1674, ci = 7,  votes = 14278, rank = 10, variant = "Qwen3.8-Max (0902)", preliminary = true }
+"mimo-v2.6-pro"       = { score = 1626, ci = 10, votes = 4988,  rank = 21, variant = "MiMo-V2.6-Pro" }
+"glm-5.3-flash"       = { score = 1607, ci = 7,  votes = 18121, rank = 28, variant = "GLM-5.3-Flash" }
+"deepseek-v4.1-flash" = { score = 1664, ci = 15, votes = 1830,  rank = 12, variant = "DeepSeek-V4.1-Flash-20261017 (Max)" }
+"gemini-3.8-flash"    = { score = 1586, ci = 7,  votes = 10768, rank = 33, variant = "Gemini 3.8 Flash (High)", preliminary = true }
+"claude-sonnet-5.5"   = { score = 1769, ci = 13, votes = 3369,  rank = 3,  variant = "Claude Sonnet 5.5 (xHigh)" }
+"gpt-6.1-sol"         = { score = 1753, ci = 13, votes = 3051,  rank = 4,  variant = "GPT-6.1 Sol (Max)" }
+"gemini-4-argon"      = { score = 1678, ci = 15, votes = 1772,  rank = 9,  variant = "Gemini 4 Argon (High)", preliminary = true }
+
+# --- License (theo cột license trên arena.ai, cùng ngày) -----------------------
+[licenses]
+"glm-5.3" = "MIT"
+"kimi-k3" = "Kimi K3 license"
+"deepseek-v4-pro" = "MIT"
+"minimax-m3" = "MiniMax Community License"
+"qwen3.8-max" = "Proprietary"
+"mimo-v2.6-pro" = "MIT"
+"glm-5.3-flash" = "MIT"
+"deepseek-v4.1-flash" = "MIT"
+"gemini-3.8-flash" = "Proprietary"
+"claude-sonnet-5.5" = "Proprietary"
+"gpt-6.1-sol" = "Proprietary"
+"gemini-4-argon" = "Proprietary"

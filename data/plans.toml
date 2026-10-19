@@ -1,0 +1,179 @@
+# Gói subscription dùng cho AI coding (trả phí theo tháng thay vì theo token).
+# Coding subscriptions (flat monthly fee instead of per-token billing).
+#
+# price_month       = giá trả theo tháng (USD)
+# price_month_yearly = giá quy ra mỗi tháng khi trả theo năm (nếu trang có ghi)
+# usage_vi / usage_en = hạn mức như trang chính hãng mô tả (các hãng đo bằng đơn vị khác nhau, không quy đổi được)
+# Cập nhật: mở url, sửa số, đổi checked.
+
+[[plans]]
+provider = "Z.ai"
+plan = "GLM Coding Plan Lite"
+models = ["glm-5.3", "glm-5.3-flash"]
+price_month = 18
+price_month_yearly = 12.6
+usage_en = "10,000 credits/week"
+usage_vi = "10.000 credit/tuần"
+tools = "Claude Code, Codex, Cursor, OpenCode, ZCode… (20+)"
+url = "https://z.ai/subscribe"
+checked = 2026-10-19
+
+[[plans]]
+provider = "Z.ai"
+plan = "GLM Coding Plan Pro"
+models = ["glm-5.3", "glm-5.3-flash"]
+price_month = 80
+price_month_yearly = 56
+usage_en = "6× Lite usage"
+usage_vi = "6× hạn mức Lite"
+tools = "Claude Code, Codex, Cursor, OpenCode, ZCode… (20+)"
+url = "https://z.ai/subscribe"
+checked = 2026-10-19
+
+[[plans]]
+provider = "Z.ai"
+plan = "GLM Coding Plan Max"
+models = ["glm-5.3", "glm-5.3-flash"]
+price_month = 168
+price_month_yearly = 117.6
+usage_en = "14× Lite usage"
+usage_vi = "14× hạn mức Lite"
+tools = "Claude Code, Codex, Cursor, OpenCode, ZCode… (20+)"
+url = "https://z.ai/subscribe"
+checked = 2026-10-19
+
+[[plans]]
+provider = "Moonshot AI"
+plan = "Kimi Plus"
+models = ["kimi-k3"]
+price_month = 19
+price_month_yearly = 15
+usage_en = "More agent credits (base tier)"
+usage_vi = "Thêm agent credit (mức cơ bản)"
+tools = "Kimi Code (desktop, CLI, IDE)"
+url = "https://www.kimi.com/membership/pricing"
+checked = 2026-10-19
+
+[[plans]]
+provider = "Moonshot AI"
+plan = "Kimi Pro"
+models = ["kimi-k3"]
+price_month = 39
+price_month_yearly = 31
+usage_en = "2× agent credits"
+usage_vi = "2× agent credit"
+tools = "Kimi Code (desktop, CLI, IDE)"
+url = "https://www.kimi.com/membership/pricing"
+checked = 2026-10-19
+
+[[plans]]
+provider = "Moonshot AI"
+plan = "Kimi Max"
+models = ["kimi-k3"]
+price_month = 99
+price_month_yearly = 79
+usage_en = "5× agent credits"
+usage_vi = "5× agent credit"
+tools = "Kimi Code (desktop, CLI, IDE)"
+url = "https://www.kimi.com/membership/pricing"
+checked = 2026-10-19
+
+[[plans]]
+provider = "MiniMax"
+plan = "M Plan Go"
+models = []
+model_note_en = "Text model listed: M3.1 Flash Preview (not M3)"
+model_note_vi = "Model text ghi trên trang: M3.1 Flash Preview (không phải M3)"
+price_month = 22
+price_month_yearly = 18.33
+usage_en = "Base usage"
+usage_vi = "Hạn mức cơ bản"
+tools = "API key for Claude Code, Codex, Cursor, OpenCode…; MiniMax Code"
+url = "https://www.minimax.io/m-plan"
+checked = 2026-10-19
+
+[[plans]]
+provider = "MiniMax"
+plan = "M Plan Explore"
+models = []
+model_note_en = "Text model listed: M3.1 Flash Preview (not M3)"
+model_note_vi = "Model text ghi trên trang: M3.1 Flash Preview (không phải M3)"
+price_month = 55
+price_month_yearly = 45.83
+usage_en = "3× Go usage"
+usage_vi = "3× hạn mức Go"
+tools = "API key for Claude Code, Codex, Cursor, OpenCode…; MiniMax Code"
+url = "https://www.minimax.io/m-plan"
+checked = 2026-10-19
+
+[[plans]]
+provider = "MiniMax"
+plan = "M Plan Build"
+models = []
+model_note_en = "Text model listed: M3.1 Flash Preview (not M3)"
+model_note_vi = "Model text ghi trên trang: M3.1 Flash Preview (không phải M3)"
+price_month = 132
+price_month_yearly = 110
+usage_en = "7.5× Go usage"
+usage_vi = "7,5× hạn mức Go"
+tools = "API key for Claude Code, Codex, Cursor, OpenCode…; MiniMax Code"
+url = "https://www.minimax.io/m-plan"
+checked = 2026-10-19
+
+[[plans]]
+provider = "Alibaba Cloud"
+plan = "Model Studio Coding Plan Pro"
+models = []
+model_note_en = "Older models only: qwen3.7-plus, qwen3.6-plus, kimi-k2.5, glm-5, MiniMax-M2.5"
+model_note_vi = "Chỉ model đời cũ: qwen3.7-plus, qwen3.6-plus, kimi-k2.5, glm-5, MiniMax-M2.5"
+price_month = 50
+usage_en = "6,000 requests/5h · 45,000/week · 90,000/month"
+usage_vi = "6.000 request/5 giờ · 45.000/tuần · 90.000/tháng"
+tools = "Claude Code, Cursor, Qwen Code, Cline, Codex, OpenCode… (16+)"
+url = "https://www.alibabacloud.com/help/en/model-studio/coding-plan"
+checked = 2026-10-19
+
+[[plans]]
+provider = "Anthropic"
+plan = "Claude Pro"
+models = ["claude-sonnet-5.5"]
+price_month = 20
+price_month_yearly = 17
+usage_en = "≥5× Free usage per 5-hour session"
+usage_vi = "≥5× hạn mức Free mỗi phiên 5 giờ"
+tools = "Claude Code"
+url = "https://claude.com/pricing"
+checked = 2026-10-19
+
+[[plans]]
+provider = "Anthropic"
+plan = "Claude Max (5×)"
+models = ["claude-sonnet-5.5"]
+price_month = 100
+usage_en = "5× Pro usage (a 20× tier also exists)"
+usage_vi = "5× hạn mức Pro (có thêm bậc 20×)"
+tools = "Claude Code"
+url = "https://claude.com/pricing"
+checked = 2026-10-19
+
+[[plans]]
+provider = "OpenAI"
+plan = "ChatGPT Plus"
+models = ["gpt-6.1-sol"]
+price_month = 20
+usage_en = "Codex: 15–160 GPT-6.1 Sol messages / 5h"
+usage_vi = "Codex: 15–160 tin nhắn GPT-6.1 Sol / 5 giờ"
+tools = "Codex (CLI, IDE, cloud)"
+url = "https://learn.chatgpt.com/docs/pricing"
+checked = 2026-10-19
+
+[[plans]]
+provider = "OpenAI"
+plan = "ChatGPT Pro"
+models = ["gpt-6.1-sol"]
+price_month = 100
+usage_en = "No 5-hour limit (tiers $100 / $200 / $500)"
+usage_vi = "Không giới hạn 5 giờ (bậc $100 / $200 / $500)"
+tools = "Codex (CLI, IDE, cloud)"
+url = "https://learn.chatgpt.com/docs/pricing"
+checked = 2026-10-19
