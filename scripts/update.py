@@ -24,7 +24,7 @@ def git(*args: str) -> subprocess.CompletedProcess:
 def main(argv: list[str]) -> int:
     fetch_failed = fetch_sources.main([])
     build.main()
-    changed = git("status", "--porcelain", "--", *DATA_PATHS).stdout.strip()
+    changed = git("status", "--porcelain", "--", *DATA_PATHS).stdout.rstrip()
     if not changed:
         print("\nKhông có thay đổi dữ liệu / no data changes.")
         return fetch_failed

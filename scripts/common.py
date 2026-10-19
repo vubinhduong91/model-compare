@@ -4,11 +4,17 @@ from __future__ import annotations
 import datetime as dt
 import json
 import re
+import sys
 import tomllib
 import urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any, Iterator
+
+# Windows consoles default to a legacy code page that cannot print Vietnamese messages.
+for _stream in (sys.stdout, sys.stderr):
+    if hasattr(_stream, "reconfigure"):
+        _stream.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -54,7 +60,7 @@ def write_snapshot(name: str, source_url: str, payload: Any) -> Path:
     SNAPSHOTS.mkdir(parents=True, exist_ok=True)
     path = SNAPSHOTS / f"{name}.json"
     doc = {"source_url": source_url, "fetched_at": now_iso(), "data": payload}
-    path.write_text(json.dumps(doc, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+    path.write_text(json.dumps(doc, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8", newline="\n")
     return path
 
 

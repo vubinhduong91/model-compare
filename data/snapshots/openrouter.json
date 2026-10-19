@@ -12,8 +12,7 @@
      "output": 10.0,
      "provider": "Google",
      "quantization": "unknown",
-     "tag": "google-vertex/global",
-     "uptime_1d": 100
+     "tag": "google-vertex/global"
     },
     {
      "cache_read": 0.1,
@@ -23,8 +22,7 @@
      "output": 10.0,
      "provider": "Amazon Bedrock",
      "quantization": "unknown",
-     "tag": "amazon-bedrock",
-     "uptime_1d": 99.86101459346769
+     "tag": "amazon-bedrock"
     },
     {
      "cache_read": 0.1,
@@ -34,8 +32,7 @@
      "output": 10.0,
      "provider": "Azure",
      "quantization": "unknown",
-     "tag": "azure/global",
-     "uptime_1d": 100
+     "tag": "azure/global"
     },
     {
      "cache_read": 0.1,
@@ -45,8 +42,7 @@
      "output": 10.0,
      "provider": "Claude Platform on AWS",
      "quantization": "unknown",
-     "tag": "claude-on-aws",
-     "uptime_1d": 100
+     "tag": "claude-on-aws"
     },
     {
      "cache_read": 0.1,
@@ -56,8 +52,7 @@
      "output": 10.0,
      "provider": "Anthropic",
      "quantization": "unknown",
-     "tag": "anthropic",
-     "uptime_1d": 100
+     "tag": "anthropic"
     },
     {
      "cache_read": 0.11,
@@ -67,8 +62,7 @@
      "output": 11.0,
      "provider": "Google",
      "quantization": "unknown",
-     "tag": "google-vertex/us",
-     "uptime_1d": 100
+     "tag": "google-vertex/us"
     },
     {
      "cache_read": 0.11,
@@ -78,8 +72,7 @@
      "output": 11.0,
      "provider": "Azure",
      "quantization": "unknown",
-     "tag": "azure/us",
-     "uptime_1d": null
+     "tag": "azure/us"
     },
     {
      "cache_read": 0.11,
@@ -89,8 +82,7 @@
      "output": 11.0,
      "provider": "Google",
      "quantization": "unknown",
-     "tag": "google-vertex/europe",
-     "uptime_1d": 100
+     "tag": "google-vertex/europe"
     }
    ],
    "name": "Anthropic: Claude Sonnet 5.5",
@@ -120,8 +112,7 @@
      "output": 8.0,
      "provider": "Relace",
      "quantization": "fp4",
-     "tag": "relace/fp4",
-     "uptime_1d": 100
+     "tag": "relace/fp4"
     },
     {
      "cache_read": 0.249,
@@ -131,8 +122,7 @@
      "output": 5.0,
      "provider": "Wafer",
      "quantization": "mxfp4",
-     "tag": "wafer/mxfp4",
-     "uptime_1d": 100
+     "tag": "wafer/mxfp4"
     },
     {
      "cache_read": 0.088,
@@ -142,8 +132,7 @@
      "output": 2.93,
      "provider": "Ionstream",
      "quantization": "unknown",
-     "tag": "ionstream",
-     "uptime_1d": 100
+     "tag": "ionstream"
     },
     {
      "cache_read": 0.022,
@@ -153,8 +142,7 @@
      "output": 1.98,
      "provider": "StreamLake",
      "quantization": "unknown",
-     "tag": "streamlake",
-     "uptime_1d": 100
+     "tag": "streamlake"
     },
     {
      "cache_read": 0.15,
@@ -164,8 +152,7 @@
      "output": 3.8,
      "provider": "DekaLLM",
      "quantization": "unknown",
-     "tag": "dekallm",
-     "uptime_1d": 99.89909182643795
+     "tag": "dekallm"
     },
     {
      "cache_read": 0.187,
@@ -175,8 +162,7 @@
      "output": 0.582,
      "provider": "Sail Research",
      "quantization": "fp4",
-     "tag": "sail-research/us",
-     "uptime_1d": 100
+     "tag": "sail-research/us"
     },
     {
      "cache_read": 0.187,
@@ -186,8 +172,7 @@
      "output": 0.582,
      "provider": "Sail Research",
      "quantization": "fp4",
-     "tag": "sail-research/fp4",
-     "uptime_1d": 100
+     "tag": "sail-research/fp4"
     },
     {
      "cache_read": 0.033,
@@ -197,8 +182,7 @@
      "output": 2.97,
      "provider": "Novita",
      "quantization": "fp8",
-     "tag": "novita/fp8",
-     "uptime_1d": 99.92846924177397
+     "tag": "novita/fp8"
     },
     {
      "cache_read": 0.0352,
@@ -208,8 +192,7 @@
      "output": 3.168,
      "provider": "GMICloud",
      "quantization": "fp8",
-     "tag": "gmicloud/fp8",
-     "uptime_1d": 100
+     "tag": "gmicloud/fp8"
     },
     {
      "cache_read": 0.1122,
@@ -219,8 +202,7 @@
      "output": 3.366,
      "provider": "Alibaba",
      "quantization": "unknown",
-     "tag": "alibaba",
-     "uptime_1d": 98.88641425389754
+     "tag": "alibaba"
     },
     {
      "cache_read": 0.1,
@@ -230,8 +212,7 @@
      "output": 2.6,
      "provider": "DeepInfra",
      "quantization": "fp8",
-     "tag": "deepinfra/fp8",
-     "uptime_1d": 99.83416252072969
+     "tag": "deepinfra/fp8"
     },
     {
      "cache_read": 0.044,
@@ -241,8 +222,7 @@
      "output": 3.96,
      "provider": "CoreWeave",
      "quantization": "fp8",
-     "tag": "coreweave/fp8",
-     "uptime_1d": 99.85865724381625
+     "tag": "coreweave/fp8"
     },
     {
      "cache_read": 0.132,
@@ -252,8 +232,7 @@
      "output": 3.96,
      "provider": "Alibaba",
      "quantization": "unknown",
-     "tag": "alibaba/us-east-1",
-     "uptime_1d": 100
+     "tag": "alibaba/us-east-1"
     },
     {
      "cache_read": 0.132,
@@ -263,8 +242,7 @@
      "output": 3.96,
      "provider": "AtlasCloud",
      "quantization": "fp8",
-     "tag": "atlas-cloud/fp8",
-     "uptime_1d": 100
+     "tag": "atlas-cloud/fp8"
     },
     {
      "cache_read": 0.042,
@@ -274,8 +252,7 @@
      "output": 3.96,
      "provider": "Baidu",
      "quantization": "fp8",
-     "tag": "baidu/fp8",
-     "uptime_1d": 100
+     "tag": "baidu/fp8"
     },
     {
      "cache_read": 0.044,
@@ -285,8 +262,7 @@
      "output": 3.96,
      "provider": "Parasail",
      "quantization": "fp8",
-     "tag": "parasail/fp8",
-     "uptime_1d": 99.55555555555556
+     "tag": "parasail/fp8"
     },
     {
      "cache_read": 0.13,
@@ -296,8 +272,7 @@
      "output": 3.96,
      "provider": "Together",
      "quantization": "unknown",
-     "tag": "together",
-     "uptime_1d": 99.79035639412997
+     "tag": "together"
     },
     {
      "cache_read": 0.044,
@@ -307,8 +282,7 @@
      "output": 3.96,
      "provider": "DigitalOcean",
      "quantization": "unknown",
-     "tag": "digitalocean",
-     "uptime_1d": 100
+     "tag": "digitalocean"
     },
     {
      "cache_read": 0.044,
@@ -318,8 +292,7 @@
      "output": 3.96,
      "provider": "SiliconFlow",
      "quantization": "fp8",
-     "tag": "siliconflow/fp8",
-     "uptime_1d": 100
+     "tag": "siliconflow/fp8"
     },
     {
      "cache_read": 0.044,
@@ -329,8 +302,7 @@
      "output": 3.96,
      "provider": "Cloudflare",
      "quantization": "unknown",
-     "tag": "cloudflare",
-     "uptime_1d": 100
+     "tag": "cloudflare"
     },
     {
      "cache_read": 0.044,
@@ -340,8 +312,7 @@
      "output": 3.96,
      "provider": "DeepSeek",
      "quantization": "unknown",
-     "tag": "deepseek",
-     "uptime_1d": 100
+     "tag": "deepseek"
     },
     {
      "cache_read": 0.15,
@@ -351,8 +322,7 @@
      "output": 4.36,
      "provider": "Phala",
      "quantization": "unknown",
-     "tag": "phala",
-     "uptime_1d": 100
+     "tag": "phala"
     },
     {
      "cache_read": 0.165,
@@ -362,8 +332,7 @@
      "output": 4.95,
      "provider": "Venice",
      "quantization": "unknown",
-     "tag": "venice",
-     "uptime_1d": null
+     "tag": "venice"
     }
    ],
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
@@ -402,8 +371,7 @@
      "output": 0.15,
      "provider": "Relace",
      "quantization": "unknown",
-     "tag": "relace",
-     "uptime_1d": 100
+     "tag": "relace"
     },
     {
      "cache_read": 0.007,
@@ -413,8 +381,7 @@
      "output": 0.6,
      "provider": "Morph",
      "quantization": "fp8",
-     "tag": "morph/fp8",
-     "uptime_1d": 100
+     "tag": "morph/fp8"
     },
     {
      "cache_read": 0.002352,
@@ -424,8 +391,7 @@
      "output": 0.2352,
      "provider": "DeepInfra",
      "quantization": "fp8",
-     "tag": "deepinfra/fp8/flex",
-     "uptime_1d": 99.93050729673384
+     "tag": "deepinfra/fp8/flex"
     },
     {
      "cache_read": 0.008,
@@ -435,8 +401,7 @@
      "output": 0.5,
      "provider": "InferenceNet",
      "quantization": "fp8",
-     "tag": "inference-net/fp8",
-     "uptime_1d": 100
+     "tag": "inference-net/fp8"
     },
     {
      "cache_read": 0.00294,
@@ -446,8 +411,7 @@
      "output": 0.294,
      "provider": "DeepInfra",
      "quantization": "fp8",
-     "tag": "deepinfra/fp8",
-     "uptime_1d": 100
+     "tag": "deepinfra/fp8"
     },
     {
      "cache_read": 0.003,
@@ -457,8 +421,7 @@
      "output": 0.5,
      "provider": "Wafer",
      "quantization": "mxfp4",
-     "tag": "wafer/mxfp4",
-     "uptime_1d": 99.77941176470588
+     "tag": "wafer/mxfp4"
     },
     {
      "cache_read": 0.003,
@@ -468,8 +431,7 @@
      "output": 0.6,
      "provider": "Cloudflare",
      "quantization": "unknown",
-     "tag": "cloudflare",
-     "uptime_1d": 100
+     "tag": "cloudflare"
     },
     {
      "cache_read": 0.00441,
@@ -479,8 +441,7 @@
      "output": 0.441,
      "provider": "DeepInfra",
      "quantization": "fp8",
-     "tag": "deepinfra/fp8/priority",
-     "uptime_1d": 100
+     "tag": "deepinfra/fp8/priority"
     },
     {
      "cache_read": 0.007,
@@ -490,8 +451,7 @@
      "output": 1.2,
      "provider": "Crusoe",
      "quantization": "fp8",
-     "tag": "crusoe/fp8",
-     "uptime_1d": 100
+     "tag": "crusoe/fp8"
     },
     {
      "cache_read": 0.03,
@@ -501,8 +461,7 @@
      "output": 1.2,
      "provider": "Alibaba",
      "quantization": "unknown",
-     "tag": "alibaba",
-     "uptime_1d": 100
+     "tag": "alibaba"
     },
     {
      "cache_read": 0.006,
@@ -512,8 +471,7 @@
      "output": 1.2,
      "provider": "Together",
      "quantization": "unknown",
-     "tag": "together",
-     "uptime_1d": 100
+     "tag": "together"
     },
     {
      "cache_read": 0.006,
@@ -523,8 +481,7 @@
      "output": 1.2,
      "provider": "Fireworks",
      "quantization": "unknown",
-     "tag": "fireworks",
-     "uptime_1d": 100
+     "tag": "fireworks"
     },
     {
      "cache_read": 0.006,
@@ -534,8 +491,7 @@
      "output": 1.2,
      "provider": "PrimeIntellect",
      "quantization": "unknown",
-     "tag": "primeintellect",
-     "uptime_1d": 99.86111111111111
+     "tag": "primeintellect"
     },
     {
      "cache_read": 0.007,
@@ -545,8 +501,7 @@
      "output": 1.2,
      "provider": "BaseTen",
      "quantization": "unknown",
-     "tag": "baseten",
-     "uptime_1d": 100
+     "tag": "baseten"
     },
     {
      "cache_read": 0.006,
@@ -556,8 +511,7 @@
      "output": 1.2,
      "provider": "Parasail",
      "quantization": "fp8",
-     "tag": "parasail/fp8",
-     "uptime_1d": 100
+     "tag": "parasail/fp8"
     },
     {
      "cache_read": 0.006,
@@ -567,8 +521,7 @@
      "output": 1.2,
      "provider": "DeepSeek",
      "quantization": "unknown",
-     "tag": "deepseek",
-     "uptime_1d": 100
+     "tag": "deepseek"
     }
    ],
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
@@ -609,8 +562,7 @@
      "output": 1.875,
      "provider": "Google AI Studio",
      "quantization": "unknown",
-     "tag": "google-ai-studio/flex",
-     "uptime_1d": 100
+     "tag": "google-ai-studio/flex"
     },
     {
      "cache_read": 0.0375,
@@ -620,8 +572,7 @@
      "output": 1.875,
      "provider": "Google",
      "quantization": "unknown",
-     "tag": "google-vertex/global/flex",
-     "uptime_1d": 76.1348897535668
+     "tag": "google-vertex/global/flex"
     },
     {
      "cache_read": 0.075,
@@ -631,8 +582,7 @@
      "output": 3.75,
      "provider": "Google AI Studio",
      "quantization": "unknown",
-     "tag": "google-ai-studio",
-     "uptime_1d": 100
+     "tag": "google-ai-studio"
     },
     {
      "cache_read": 0.075,
@@ -642,8 +592,7 @@
      "output": 3.75,
      "provider": "Google",
      "quantization": "unknown",
-     "tag": "google-vertex/global",
-     "uptime_1d": 99.93055555555556
+     "tag": "google-vertex/global"
     },
     {
      "cache_read": 0.0825,
@@ -653,8 +602,7 @@
      "output": 4.125,
      "provider": "Google",
      "quantization": "unknown",
-     "tag": "google-vertex/us",
-     "uptime_1d": 99.75429975429975
+     "tag": "google-vertex/us"
     },
     {
      "cache_read": 0.135,
@@ -664,8 +612,7 @@
      "output": 6.75,
      "provider": "Google AI Studio",
      "quantization": "unknown",
-     "tag": "google-ai-studio/priority",
-     "uptime_1d": 100
+     "tag": "google-ai-studio/priority"
     },
     {
      "cache_read": 0.135,
@@ -675,8 +622,7 @@
      "output": 6.75,
      "provider": "Google",
      "quantization": "unknown",
-     "tag": "google-vertex/global/priority",
-     "uptime_1d": 99.7867803837953
+     "tag": "google-vertex/global/priority"
     }
    ],
    "name": "Google: Gemini 3.8 Flash",
@@ -707,8 +653,7 @@
      "output": 5.0,
      "provider": "Google AI Studio",
      "quantization": "unknown",
-     "tag": "google-ai-studio/flex",
-     "uptime_1d": 100
+     "tag": "google-ai-studio/flex"
     },
     {
      "cache_read": 0.1,
@@ -718,8 +663,7 @@
      "output": 10.0,
      "provider": "Google",
      "quantization": "unknown",
-     "tag": "google-vertex/global",
-     "uptime_1d": 98.68055555555556
+     "tag": "google-vertex/global"
     },
     {
      "cache_read": 0.1,
@@ -729,8 +673,7 @@
      "output": 10.0,
      "provider": "Google AI Studio",
      "quantization": "unknown",
-     "tag": "google-ai-studio",
-     "uptime_1d": 99.65253648366922
+     "tag": "google-ai-studio"
     },
     {
      "cache_read": 0.11,
@@ -740,8 +683,7 @@
      "output": 11.0,
      "provider": "Google",
      "quantization": "unknown",
-     "tag": "google-vertex/us",
-     "uptime_1d": 100
+     "tag": "google-vertex/us"
     },
     {
      "cache_read": 0.18,
@@ -751,8 +693,7 @@
      "output": 18.0,
      "provider": "Google",
      "quantization": "unknown",
-     "tag": "google-vertex/global/priority",
-     "uptime_1d": 100
+     "tag": "google-vertex/global/priority"
     },
     {
      "cache_read": 0.18,
@@ -762,8 +703,7 @@
      "output": 18.0,
      "provider": "Google AI Studio",
      "quantization": "unknown",
-     "tag": "google-ai-studio/priority",
-     "uptime_1d": 91.80327868852459
+     "tag": "google-ai-studio/priority"
     }
    ],
    "name": "Google: Gemini 4 Argon",
@@ -794,8 +734,7 @@
      "output": 0.88,
      "provider": "DeepInfra",
      "quantization": "fp8",
-     "tag": "deepinfra/fp8/flex",
-     "uptime_1d": 100
+     "tag": "deepinfra/fp8/flex"
     },
     {
      "cache_read": 0.05,
@@ -805,8 +744,7 @@
      "output": 0.96,
      "provider": "CoreWeave",
      "quantization": "fp4",
-     "tag": "coreweave/fp4",
-     "uptime_1d": 100
+     "tag": "coreweave/fp4"
     },
     {
      "cache_read": 0.048,
@@ -816,8 +754,7 @@
      "output": 0.96,
      "provider": "GMICloud",
      "quantization": "fp8",
-     "tag": "gmicloud/fp8",
-     "uptime_1d": 99.77628635346755
+     "tag": "gmicloud/fp8"
     },
     {
      "cache_read": 0.056,
@@ -827,8 +764,7 @@
      "output": 1.1,
      "provider": "DeepInfra",
      "quantization": "fp8",
-     "tag": "deepinfra/fp8",
-     "uptime_1d": 100
+     "tag": "deepinfra/fp8"
     },
     {
      "cache_read": 0.06,
@@ -838,8 +774,7 @@
      "output": 1.2,
      "provider": "StreamLake",
      "quantization": "fp8",
-     "tag": "streamlake/fp8",
-     "uptime_1d": 99.30555555555556
+     "tag": "streamlake/fp8"
     },
     {
      "cache_read": 0.06,
@@ -849,8 +784,7 @@
      "output": 1.2,
      "provider": "Venice",
      "quantization": "fp8",
-     "tag": "venice/fp8",
-     "uptime_1d": 98.10426540284361
+     "tag": "venice/fp8"
     },
     {
      "cache_read": 0.06,
@@ -860,8 +794,7 @@
      "output": 1.2,
      "provider": "Together",
      "quantization": "unknown",
-     "tag": "together",
-     "uptime_1d": 99.69348659003832
+     "tag": "together"
     },
     {
      "cache_read": 0.06,
@@ -871,8 +804,7 @@
      "output": 1.2,
      "provider": "Parasail",
      "quantization": "fp8",
-     "tag": "parasail/fp8",
-     "uptime_1d": 99.90476190476191
+     "tag": "parasail/fp8"
     },
     {
      "cache_read": 0.06,
@@ -882,8 +814,7 @@
      "output": 1.2,
      "provider": "AtlasCloud",
      "quantization": "fp8",
-     "tag": "atlas-cloud/fp8",
-     "uptime_1d": 99.74293059125964
+     "tag": "atlas-cloud/fp8"
     },
     {
      "cache_read": 0.06,
@@ -893,8 +824,7 @@
      "output": 1.2,
      "provider": "Novita",
      "quantization": "fp8",
-     "tag": "novita/fp8",
-     "uptime_1d": 99.830220713073
+     "tag": "novita/fp8"
     },
     {
      "cache_read": 0.06,
@@ -904,8 +834,7 @@
      "output": 1.2,
      "provider": "Minimax",
      "quantization": "fp8",
-     "tag": "minimax/fp8",
-     "uptime_1d": 100
+     "tag": "minimax/fp8"
     },
     {
      "cache_read": 0.05,
@@ -915,8 +844,7 @@
      "output": 1.3,
      "provider": "ModelRun",
      "quantization": "fp8",
-     "tag": "modelrun/fp8",
-     "uptime_1d": 100
+     "tag": "modelrun/fp8"
     },
     {
      "cache_read": null,
@@ -926,8 +854,7 @@
      "output": 2.4,
      "provider": "Mara",
      "quantization": "unknown",
-     "tag": "mara",
-     "uptime_1d": 100
+     "tag": "mara"
     },
     {
      "cache_read": 0.06,
@@ -937,8 +864,7 @@
      "output": 2.4,
      "provider": "SambaNova",
      "quantization": "unknown",
-     "tag": "sambanova",
-     "uptime_1d": 100
+     "tag": "sambanova"
     }
    ],
    "name": "MiniMax: MiniMax M3",
@@ -969,15 +895,24 @@
    "created": 1784215858,
    "endpoints": [
     {
-     "cache_read": 0.228,
+     "cache_read": 0.207,
      "context_length": 1048576,
-     "input": 0.238,
+     "input": 0.217,
      "max_completion_tokens": 943718,
      "output": 16.0,
      "provider": "Wafer",
      "quantization": "mxfp4",
-     "tag": "wafer",
-     "uptime_1d": 100
+     "tag": "wafer"
+    },
+    {
+     "cache_read": 0.191,
+     "context_length": 1048576,
+     "input": 0.218,
+     "max_completion_tokens": 943718,
+     "output": 14.9,
+     "provider": "Morph",
+     "quantization": "fp8",
+     "tag": "morph/fp8"
     },
     {
      "cache_read": 0.21,
@@ -987,19 +922,7 @@
      "output": 11.936,
      "provider": "InferenceNet",
      "quantization": "fp4",
-     "tag": "inference-net/fp4",
-     "uptime_1d": 100
-    },
-    {
-     "cache_read": 0.209,
-     "context_length": 1048576,
-     "input": 0.239,
-     "max_completion_tokens": 943718,
-     "output": 14.9,
-     "provider": "Morph",
-     "quantization": "fp8",
-     "tag": "morph/fp8",
-     "uptime_1d": 99.51117318435753
+     "tag": "inference-net/fp4"
     },
     {
      "cache_read": 0.359,
@@ -1009,8 +932,7 @@
      "output": 11.9,
      "provider": "Wafer",
      "quantization": "mxfp4",
-     "tag": "wafer/us",
-     "uptime_1d": 100
+     "tag": "wafer/us"
     },
     {
      "cache_read": 0.6,
@@ -1020,8 +942,7 @@
      "output": 3.0,
      "provider": "Relace",
      "quantization": "fp4",
-     "tag": "relace/fp4",
-     "uptime_1d": 100
+     "tag": "relace/fp4"
     },
     {
      "cache_read": 0.4,
@@ -1031,8 +952,7 @@
      "output": 9.0,
      "provider": "Sail Research",
      "quantization": "fp4",
-     "tag": "sail-research/fp4/us",
-     "uptime_1d": 100
+     "tag": "sail-research/fp4/us"
     },
     {
      "cache_read": 0.4,
@@ -1042,8 +962,7 @@
      "output": 9.0,
      "provider": "Sail Research",
      "quantization": "fp4",
-     "tag": "sail-research/fp4",
-     "uptime_1d": 100
+     "tag": "sail-research/fp4"
     },
     {
      "cache_read": 1.2,
@@ -1053,8 +972,7 @@
      "output": 14.0,
      "provider": "AkashML",
      "quantization": "fp4",
-     "tag": "akashml/fp4",
-     "uptime_1d": 100
+     "tag": "akashml/fp4"
     },
     {
      "cache_read": 0.204,
@@ -1064,8 +982,7 @@
      "output": 12.75,
      "provider": "Makora",
      "quantization": "fp4",
-     "tag": "makora/fp4",
-     "uptime_1d": 99.41666666666666
+     "tag": "makora/fp4"
     },
     {
      "cache_read": 0.165,
@@ -1075,8 +992,7 @@
      "output": 8.25,
      "provider": "Decart",
      "quantization": "mxfp4",
-     "tag": "decart/mxfp4",
-     "uptime_1d": 99.51151430565248
+     "tag": "decart/mxfp4"
     },
     {
      "cache_read": 0.185,
@@ -1086,8 +1002,7 @@
      "output": 9.5,
      "provider": "Chutes",
      "quantization": "mxfp4",
-     "tag": "chutes/mxfp4",
-     "uptime_1d": 93.75
+     "tag": "chutes/mxfp4"
     },
     {
      "cache_read": 0.35,
@@ -1097,8 +1012,7 @@
      "output": 15.0,
      "provider": "InferenceNet",
      "quantization": "fp4",
-     "tag": "inference-net/fast",
-     "uptime_1d": 100
+     "tag": "inference-net/fast"
     },
     {
      "cache_read": 0.255,
@@ -1108,8 +1022,7 @@
      "output": 12.75,
      "provider": "Phala",
      "quantization": "unknown",
-     "tag": "phala",
-     "uptime_1d": 99.93050729673384
+     "tag": "phala"
     },
     {
      "cache_read": 0.255,
@@ -1119,8 +1032,7 @@
      "output": 12.95,
      "provider": "DigitalOcean",
      "quantization": "unknown",
-     "tag": "digitalocean",
-     "uptime_1d": 100
+     "tag": "digitalocean"
     },
     {
      "cache_read": 0.285,
@@ -1130,8 +1042,7 @@
      "output": 14.25,
      "provider": "DeepInfra",
      "quantization": "mxfp4",
-     "tag": "deepinfra/mxfp4",
-     "uptime_1d": 100
+     "tag": "deepinfra/mxfp4"
     },
     {
      "cache_read": 0.3,
@@ -1141,8 +1052,7 @@
      "output": 15.0,
      "provider": "Parasail",
      "quantization": "fp4",
-     "tag": "parasail/fast",
-     "uptime_1d": 92.40246406570843
+     "tag": "parasail/fast"
     },
     {
      "cache_read": 0.3,
@@ -1152,8 +1062,7 @@
      "output": 15.0,
      "provider": "Amazon Bedrock",
      "quantization": "unknown",
-     "tag": "amazon-bedrock/us-east-2",
-     "uptime_1d": 99.79166666666667
+     "tag": "amazon-bedrock/us-east-2"
     },
     {
      "cache_read": 0.3,
@@ -1163,8 +1072,7 @@
      "output": 15.0,
      "provider": "Parasail",
      "quantization": "fp4",
-     "tag": "parasail/fp4",
-     "uptime_1d": 88.34224598930481
+     "tag": "parasail/fp4"
     },
     {
      "cache_read": 0.3,
@@ -1174,8 +1082,7 @@
      "output": 15.0,
      "provider": "Modal",
      "quantization": "mxfp4",
-     "tag": "modal/mxfp4",
-     "uptime_1d": 99.92912827781714
+     "tag": "modal/mxfp4"
     },
     {
      "cache_read": 0.3,
@@ -1185,8 +1092,7 @@
      "output": 15.0,
      "provider": "Together",
      "quantization": "unknown",
-     "tag": "together",
-     "uptime_1d": 100
+     "tag": "together"
     },
     {
      "cache_read": 0.3,
@@ -1196,8 +1102,7 @@
      "output": 15.0,
      "provider": "Fireworks",
      "quantization": "unknown",
-     "tag": "fireworks",
-     "uptime_1d": 99.93011879804332
+     "tag": "fireworks"
     },
     {
      "cache_read": 0.3,
@@ -1207,8 +1112,7 @@
      "output": 15.0,
      "provider": "BaseTen",
      "quantization": "fp8",
-     "tag": "baseten/fp8",
-     "uptime_1d": 100
+     "tag": "baseten/fp8"
     },
     {
      "cache_read": 0.3,
@@ -1218,8 +1122,7 @@
      "output": 15.0,
      "provider": "Moonshot AI",
      "quantization": "mxfp4",
-     "tag": "moonshotai/mxfp4",
-     "uptime_1d": 100
+     "tag": "moonshotai/mxfp4"
     },
     {
      "cache_read": 0.345,
@@ -1229,8 +1132,7 @@
      "output": 17.25,
      "provider": "Alibaba",
      "quantization": "unknown",
-     "tag": "alibaba",
-     "uptime_1d": 100
+     "tag": "alibaba"
     },
     {
      "cache_read": 0.45,
@@ -1240,8 +1142,7 @@
      "output": 22.5,
      "provider": "Fireworks",
      "quantization": "unknown",
-     "tag": "fireworks/us",
-     "uptime_1d": 99.12087912087912
+     "tag": "fireworks/us"
     },
     {
      "cache_read": 0.45,
@@ -1251,8 +1152,7 @@
      "output": 22.5,
      "provider": "Fireworks",
      "quantization": "unknown",
-     "tag": "fireworks/fast",
-     "uptime_1d": 99.26948051948052
+     "tag": "fireworks/fast"
     }
    ],
    "name": "MoonshotAI: Kimi K3",
@@ -1291,8 +1191,7 @@
      "output": 5.0,
      "provider": "OpenAI",
      "quantization": "unknown",
-     "tag": "openai/flex",
-     "uptime_1d": 94.36325678496868
+     "tag": "openai/flex"
     },
     {
      "cache_read": 0.1,
@@ -1302,8 +1201,7 @@
      "output": 10.0,
      "provider": "Azure",
      "quantization": "unknown",
-     "tag": "azure",
-     "uptime_1d": 62.43055555555556
+     "tag": "azure"
     },
     {
      "cache_read": 0.1,
@@ -1313,8 +1211,7 @@
      "output": 10.0,
      "provider": "OpenAI",
      "quantization": "unknown",
-     "tag": "openai",
-     "uptime_1d": 100
+     "tag": "openai"
     },
     {
      "cache_read": 0.11,
@@ -1324,8 +1221,7 @@
      "output": 11.0,
      "provider": "Amazon Bedrock",
      "quantization": "unknown",
-     "tag": "amazon-bedrock/us-east-1",
-     "uptime_1d": 100
+     "tag": "amazon-bedrock/us-east-1"
     },
     {
      "cache_read": 0.11,
@@ -1335,8 +1231,7 @@
      "output": 11.0,
      "provider": "Azure",
      "quantization": "unknown",
-     "tag": "azure/eu",
-     "uptime_1d": 100
+     "tag": "azure/eu"
     },
     {
      "cache_read": 0.11,
@@ -1346,8 +1241,7 @@
      "output": 11.0,
      "provider": "Azure",
      "quantization": "unknown",
-     "tag": "azure/us",
-     "uptime_1d": 54.45544554455446
+     "tag": "azure/us"
     },
     {
      "cache_read": 0.2,
@@ -1357,8 +1251,7 @@
      "output": 20.0,
      "provider": "OpenAI",
      "quantization": "unknown",
-     "tag": "openai/fast",
-     "uptime_1d": 100
+     "tag": "openai/fast"
     },
     {
      "cache_read": 0.6,
@@ -1368,8 +1261,7 @@
      "output": 60.0,
      "provider": "OpenAI",
      "quantization": "unknown",
-     "tag": "openai/ultrafast",
-     "uptime_1d": 100
+     "tag": "openai/ultrafast"
     }
    ],
    "name": "OpenAI: GPT-6.1 Sol",
@@ -1399,8 +1291,7 @@
      "output": 6.0,
      "provider": "Alibaba",
      "quantization": "unknown",
-     "tag": "alibaba/us-east-1",
-     "uptime_1d": 100
+     "tag": "alibaba/us-east-1"
     },
     {
      "cache_read": 0.25,
@@ -1410,8 +1301,7 @@
      "output": 6.0,
      "provider": "Alibaba",
      "quantization": "unknown",
-     "tag": "alibaba",
-     "uptime_1d": 99.93050729673384
+     "tag": "alibaba"
     }
    ],
    "name": "Qwen: Qwen3.8 Max (0902)",
@@ -1447,8 +1337,7 @@
      "output": 0.87,
      "provider": "DeepInfra",
      "quantization": "fp8",
-     "tag": "deepinfra/fp8",
-     "uptime_1d": 100
+     "tag": "deepinfra/fp8"
     },
     {
      "cache_read": 0.0036,
@@ -1458,8 +1347,7 @@
      "output": 0.87,
      "provider": "Novita",
      "quantization": "fp8",
-     "tag": "novita/fp8",
-     "uptime_1d": 98.05555555555556
+     "tag": "novita/fp8"
     },
     {
      "cache_read": 0.004,
@@ -1469,8 +1357,7 @@
      "output": 0.87,
      "provider": "GMICloud",
      "quantization": "bf16",
-     "tag": "gmicloud/bf16",
-     "uptime_1d": 98.61111111111111
+     "tag": "gmicloud/bf16"
     },
     {
      "cache_read": 0.0036,
@@ -1480,8 +1367,7 @@
      "output": 0.87,
      "provider": "Xiaomi",
      "quantization": "fp8",
-     "tag": "xiaomi/fp8",
-     "uptime_1d": 99.02777777777779
+     "tag": "xiaomi/fp8"
     }
    ],
    "name": "Xiaomi: MiMo-V2.6-Pro",
@@ -1517,8 +1403,7 @@
      "output": 6.0,
      "provider": "Morph",
      "quantization": "fp8",
-     "tag": "morph/fp8",
-     "uptime_1d": 100
+     "tag": "morph/fp8"
     },
     {
      "cache_read": 0.075,
@@ -1528,8 +1413,7 @@
      "output": 1.0,
      "provider": "Relace",
      "quantization": "unknown",
-     "tag": "relace",
-     "uptime_1d": 100
+     "tag": "relace"
     },
     {
      "cache_read": 0.078,
@@ -1539,8 +1423,7 @@
      "output": 1.4,
      "provider": "Wafer",
      "quantization": "fp4",
-     "tag": "wafer/us",
-     "uptime_1d": 100
+     "tag": "wafer/us"
     },
     {
      "cache_read": 0.076,
@@ -1550,8 +1433,7 @@
      "output": 4.381,
      "provider": "InferenceNet",
      "quantization": "fp4",
-     "tag": "inference-net/fp4",
-     "uptime_1d": 100
+     "tag": "inference-net/fp4"
     },
     {
      "cache_read": 0.105,
@@ -1561,8 +1443,7 @@
      "output": 4.2,
      "provider": "Reka",
      "quantization": "unknown",
-     "tag": "reka",
-     "uptime_1d": 99.56709956709958
+     "tag": "reka"
     },
     {
      "cache_read": 0.1,
@@ -1572,8 +1453,7 @@
      "output": 4.4,
      "provider": "Makora",
      "quantization": "fp4",
-     "tag": "makora/fp4",
-     "uptime_1d": 99.27113702623906
+     "tag": "makora/fp4"
     },
     {
      "cache_read": 0.178,
@@ -1583,8 +1463,7 @@
      "output": 1.4,
      "provider": "Wafer",
      "quantization": "fp4",
-     "tag": "wafer/fp4",
-     "uptime_1d": 100
+     "tag": "wafer/fp4"
     },
     {
      "cache_read": 0.15,
@@ -1594,8 +1473,7 @@
      "output": 2.95,
      "provider": "DekaLLM",
      "quantization": "unknown",
-     "tag": "dekallm",
-     "uptime_1d": 100
+     "tag": "dekallm"
     },
     {
      "cache_read": 0.19,
@@ -1605,8 +1483,7 @@
      "output": 4.4,
      "provider": "AkashML",
      "quantization": "fp8",
-     "tag": "akashml/fp8",
-     "uptime_1d": 100
+     "tag": "akashml/fp8"
     },
     {
      "cache_read": 0.19,
@@ -1616,8 +1493,7 @@
      "output": 2.6,
      "provider": "Io Net",
      "quantization": "fp8",
-     "tag": "io-net/fp8",
-     "uptime_1d": 99.85412107950401
+     "tag": "io-net/fp8"
     },
     {
      "cache_read": 0.119,
@@ -1627,8 +1503,7 @@
      "output": 1.505,
      "provider": "Sail Research",
      "quantization": "fp8",
-     "tag": "sail-research/us",
-     "uptime_1d": 100
+     "tag": "sail-research/us"
     },
     {
      "cache_read": 0.119,
@@ -1638,8 +1513,7 @@
      "output": 1.505,
      "provider": "Sail Research",
      "quantization": "fp8",
-     "tag": "sail-research/fp8",
-     "uptime_1d": 100
+     "tag": "sail-research/fp8"
     },
     {
      "cache_read": 0.18,
@@ -1649,8 +1523,7 @@
      "output": 1.0,
      "provider": "Inceptron",
      "quantization": "fp4",
-     "tag": "inceptron/fp4",
-     "uptime_1d": 100
+     "tag": "inceptron/fp4"
     },
     {
      "cache_read": 0.125,
@@ -1660,8 +1533,7 @@
      "output": 2.5,
      "provider": "DeepInfra",
      "quantization": "fp4",
-     "tag": "deepinfra/fp4",
-     "uptime_1d": 98.8
+     "tag": "deepinfra/fp4"
     },
     {
      "cache_read": 0.1,
@@ -1671,8 +1543,7 @@
      "output": 2.5,
      "provider": "Tenstorrent",
      "quantization": "fp8",
-     "tag": "tenstorrent/fp8",
-     "uptime_1d": 59.57446808510638
+     "tag": "tenstorrent/fp8"
     },
     {
      "cache_read": 0.13,
@@ -1682,8 +1553,7 @@
      "output": 2.2,
      "provider": "SiliconFlow",
      "quantization": "fp8",
-     "tag": "siliconflow/fp8",
-     "uptime_1d": 99.51612903225806
+     "tag": "siliconflow/fp8"
     },
     {
      "cache_read": 0.13,
@@ -1693,8 +1563,7 @@
      "output": 2.2,
      "provider": "Novita",
      "quantization": "fp8",
-     "tag": "novita/fp8",
-     "uptime_1d": 100
+     "tag": "novita/fp8"
     },
     {
      "cache_read": 0.156,
@@ -1704,8 +1573,7 @@
      "output": 2.64,
      "provider": "Phala",
      "quantization": "unknown",
-     "tag": "phala",
-     "uptime_1d": 100
+     "tag": "phala"
     },
     {
      "cache_read": 0.19,
@@ -1715,8 +1583,7 @@
      "output": 2.68,
      "provider": "Decart",
      "quantization": "fp4",
-     "tag": "decart/fp4",
-     "uptime_1d": 100
+     "tag": "decart/fp4"
     },
     {
      "cache_read": 0.169,
@@ -1726,8 +1593,7 @@
      "output": 2.86,
      "provider": "DigitalOcean",
      "quantization": "unknown",
-     "tag": "digitalocean",
-     "uptime_1d": 100
+     "tag": "digitalocean"
     },
     {
      "cache_read": 0.182,
@@ -1737,8 +1603,7 @@
      "output": 3.08,
      "provider": "GMICloud",
      "quantization": "fp8",
-     "tag": "gmicloud/fp8",
-     "uptime_1d": 96.36363636363636
+     "tag": "gmicloud/fp8"
     },
     {
      "cache_read": 0.238,
@@ -1748,8 +1613,7 @@
      "output": 3.74,
      "provider": "Alibaba",
      "quantization": "unknown",
-     "tag": "alibaba",
-     "uptime_1d": 100
+     "tag": "alibaba"
     },
     {
      "cache_read": 0.19,
@@ -1759,8 +1623,7 @@
      "output": 4.0,
      "provider": "CoreWeave",
      "quantization": "fp8",
-     "tag": "coreweave/fp8",
-     "uptime_1d": 97.57225433526011
+     "tag": "coreweave/fp8"
     },
     {
      "cache_read": 0.234,
@@ -1770,8 +1633,7 @@
      "output": 3.96,
      "provider": "Friendli",
      "quantization": "unknown",
-     "tag": "friendli",
-     "uptime_1d": 98.68055555555556
+     "tag": "friendli"
     },
     {
      "cache_read": 0.14,
@@ -1781,8 +1643,7 @@
      "output": 4.4,
      "provider": "Mistral",
      "quantization": "nvfp4",
-     "tag": "mistral/zdr",
-     "uptime_1d": 99.69902182091799
+     "tag": "mistral/zdr"
     },
     {
      "cache_read": 0.26,
@@ -1792,8 +1653,7 @@
      "output": 4.4,
      "provider": "Baidu",
      "quantization": "fp8",
-     "tag": "baidu/fp8",
-     "uptime_1d": 99.88789237668162
+     "tag": "baidu/fp8"
     },
     {
      "cache_read": 0.14,
@@ -1803,8 +1663,7 @@
      "output": 4.4,
      "provider": "BaseTen",
      "quantization": "fp4",
-     "tag": "baseten/fp4/us",
-     "uptime_1d": 100
+     "tag": "baseten/fp4/us"
     },
     {
      "cache_read": 0.14,
@@ -1814,8 +1673,7 @@
      "output": 4.4,
      "provider": "Mistral",
      "quantization": "nvfp4",
-     "tag": "mistral/nvfp4",
-     "uptime_1d": 98.24561403508771
+     "tag": "mistral/nvfp4"
     },
     {
      "cache_read": null,
@@ -1825,8 +1683,7 @@
      "output": 4.4,
      "provider": "Nebius",
      "quantization": "fp4",
-     "tag": "nebius/fp4",
-     "uptime_1d": 100
+     "tag": "nebius/fp4"
     },
     {
      "cache_read": 0.26,
@@ -1836,8 +1693,7 @@
      "output": 4.4,
      "provider": "Crusoe",
      "quantization": "fp4",
-     "tag": "crusoe/fp4",
-     "uptime_1d": 100
+     "tag": "crusoe/fp4"
     },
     {
      "cache_read": 0.26,
@@ -1847,8 +1703,7 @@
      "output": 4.4,
      "provider": "PrimeIntellect",
      "quantization": "unknown",
-     "tag": "primeintellect",
-     "uptime_1d": 100
+     "tag": "primeintellect"
     },
     {
      "cache_read": 0.26,
@@ -1858,8 +1713,7 @@
      "output": 4.4,
      "provider": "Venice",
      "quantization": "unknown",
-     "tag": "venice",
-     "uptime_1d": 97.77777777777777
+     "tag": "venice"
     },
     {
      "cache_read": 0.26,
@@ -1869,8 +1723,7 @@
      "output": 4.4,
      "provider": "Together",
      "quantization": "unknown",
-     "tag": "together",
-     "uptime_1d": 99.10380881254667
+     "tag": "together"
     },
     {
      "cache_read": 0.26,
@@ -1880,8 +1733,7 @@
      "output": 4.4,
      "provider": "Parasail",
      "quantization": "fp8",
-     "tag": "parasail/fp8",
-     "uptime_1d": 100
+     "tag": "parasail/fp8"
     },
     {
      "cache_read": 0.26,
@@ -1891,8 +1743,7 @@
      "output": 4.4,
      "provider": "Modal",
      "quantization": "unknown",
-     "tag": "modal",
-     "uptime_1d": 100
+     "tag": "modal"
     },
     {
      "cache_read": 0.14,
@@ -1902,8 +1753,7 @@
      "output": 4.4,
      "provider": "BaseTen",
      "quantization": "fp4",
-     "tag": "baseten/fp4",
-     "uptime_1d": 100
+     "tag": "baseten/fp4"
     },
     {
      "cache_read": 0.26,
@@ -1913,8 +1763,7 @@
      "output": 4.4,
      "provider": "Fireworks",
      "quantization": "unknown",
-     "tag": "fireworks",
-     "uptime_1d": 99.9147485080989
+     "tag": "fireworks"
     },
     {
      "cache_read": 0.26,
@@ -1924,8 +1773,7 @@
      "output": 4.4,
      "provider": "Cloudflare",
      "quantization": "unknown",
-     "tag": "cloudflare",
-     "uptime_1d": 100
+     "tag": "cloudflare"
     },
     {
      "cache_read": 0.26,
@@ -1935,8 +1783,7 @@
      "output": 4.4,
      "provider": "AtlasCloud",
      "quantization": "fp8",
-     "tag": "atlas-cloud/fp8",
-     "uptime_1d": 99.83857949959645
+     "tag": "atlas-cloud/fp8"
     },
     {
      "cache_read": 0.26,
@@ -1946,8 +1793,7 @@
      "output": 4.4,
      "provider": "Z.AI",
      "quantization": "fp8",
-     "tag": "z-ai/fp8",
-     "uptime_1d": 100
+     "tag": "z-ai/fp8"
     },
     {
      "cache_read": 0.154,
@@ -1957,8 +1803,7 @@
      "output": 4.84,
      "provider": "Mistral",
      "quantization": "nvfp4",
-     "tag": "mistral/nvfp4/eu",
-     "uptime_1d": 100
+     "tag": "mistral/nvfp4/eu"
     },
     {
      "cache_read": 0.4,
@@ -1968,8 +1813,7 @@
      "output": 6.6,
      "provider": "ModelRun",
      "quantization": "fp4",
-     "tag": "modelrun/fp4",
-     "uptime_1d": 100
+     "tag": "modelrun/fp4"
     },
     {
      "cache_read": 0.39,
@@ -1979,8 +1823,7 @@
      "output": 6.6,
      "provider": "Fireworks",
      "quantization": "unknown",
-     "tag": "fireworks/fast",
-     "uptime_1d": 99.3421052631579
+     "tag": "fireworks/fast"
     },
     {
      "cache_read": 0.21,
@@ -1990,8 +1833,7 @@
      "output": 6.6,
      "provider": "BaseTen",
      "quantization": "fp8",
-     "tag": "baseten/us/fast",
-     "uptime_1d": 100
+     "tag": "baseten/us/fast"
     },
     {
      "cache_read": 0.21,
@@ -2001,8 +1843,7 @@
      "output": 6.6,
      "provider": "BaseTen",
      "quantization": "fp8",
-     "tag": "baseten/fast",
-     "uptime_1d": 100
+     "tag": "baseten/fast"
     },
     {
      "cache_read": 0.56,
@@ -2012,8 +1853,7 @@
      "output": 8.8,
      "provider": "Alibaba",
      "quantization": "unknown",
-     "tag": "alibaba/prime",
-     "uptime_1d": 100
+     "tag": "alibaba/prime"
     }
    ],
    "name": "Z.ai: GLM 5.3",
@@ -2048,24 +1888,22 @@
     {
      "cache_read": 0.006,
      "context_length": 1048576,
-     "input": 0.0352,
+     "input": 0.0392,
      "max_completion_tokens": 943718,
      "output": 0.2,
      "provider": "OpenInference",
      "quantization": "fp4",
-     "tag": "open-inference/fp4",
-     "uptime_1d": 100
+     "tag": "open-inference/fp4"
     },
     {
-     "cache_read": 0.009,
+     "cache_read": 0.01,
      "context_length": 1048576,
-     "input": 0.044,
+     "input": 0.049,
      "max_completion_tokens": 943718,
      "output": 0.65,
      "provider": "Morph",
      "quantization": "fp8",
-     "tag": "morph/fp8",
-     "uptime_1d": 99.72202918693537
+     "tag": "morph/fp8"
     },
     {
      "cache_read": 0.04,
@@ -2075,8 +1913,7 @@
      "output": 1.6,
      "provider": "Reka",
      "quantization": "unknown",
-     "tag": "reka",
-     "uptime_1d": 100
+     "tag": "reka"
     },
     {
      "cache_read": 0.01497,
@@ -2086,8 +1923,7 @@
      "output": 0.2495,
      "provider": "StreamLake",
      "quantization": "fp8",
-     "tag": "streamlake/fp8",
-     "uptime_1d": 99.86111111111111
+     "tag": "streamlake/fp8"
     },
     {
      "cache_read": 0.015,
@@ -2097,8 +1933,7 @@
      "output": 0.25,
      "provider": "DeepInfra",
      "quantization": "fp4",
-     "tag": "deepinfra/fp4",
-     "uptime_1d": 100
+     "tag": "deepinfra/fp4"
     },
     {
      "cache_read": 0.0075,
@@ -2108,8 +1943,7 @@
      "output": 0.5,
      "provider": "Relace",
      "quantization": "unknown",
-     "tag": "relace",
-     "uptime_1d": 99.89165763813651
+     "tag": "relace"
     },
     {
      "cache_read": 0.05223,
@@ -2119,8 +1953,7 @@
      "output": 0.3,
      "provider": "Sail Research",
      "quantization": "fp4",
-     "tag": "sail-research/us",
-     "uptime_1d": 100
+     "tag": "sail-research/us"
     },
     {
      "cache_read": 0.05223,
@@ -2130,19 +1963,17 @@
      "output": 0.3,
      "provider": "Sail Research",
      "quantization": "fp4",
-     "tag": "sail-research/fp4",
-     "uptime_1d": 100
+     "tag": "sail-research/fp4"
     },
     {
      "cache_read": 0.06,
      "context_length": 1048576,
      "input": 0.08,
      "max_completion_tokens": 131072,
-     "output": 0.3,
+     "output": 0.25,
      "provider": "Wafer",
      "quantization": "nvfp4",
-     "tag": "wafer/nvfp4",
-     "uptime_1d": 99.51388888888889
+     "tag": "wafer/nvfp4"
     },
     {
      "cache_read": 0.012,
@@ -2152,8 +1983,7 @@
      "output": 0.5,
      "provider": "Near AI",
      "quantization": "fp8",
-     "tag": "near-ai/fp8",
-     "uptime_1d": 100
+     "tag": "near-ai/fp8"
     },
     {
      "cache_read": 0.0168,
@@ -2163,8 +1993,7 @@
      "output": 0.28,
      "provider": "Novita",
      "quantization": "fp8",
-     "tag": "novita/fp8",
-     "uptime_1d": 100
+     "tag": "novita/fp8"
     },
     {
      "cache_read": 0.018,
@@ -2174,8 +2003,7 @@
      "output": 0.3,
      "provider": "GMICloud",
      "quantization": "fp8",
-     "tag": "gmicloud/fp8",
-     "uptime_1d": 99.86111111111111
+     "tag": "gmicloud/fp8"
     },
     {
      "cache_read": 0.075,
@@ -2185,8 +2013,7 @@
      "output": 0.69,
      "provider": "Inceptron",
      "quantization": "fp8",
-     "tag": "inceptron/fp8",
-     "uptime_1d": 100
+     "tag": "inceptron/fp8"
     },
     {
      "cache_read": 0.032,
@@ -2196,8 +2023,7 @@
      "output": 0.388,
      "provider": "InferenceNet",
      "quantization": "fp4",
-     "tag": "inference-net/fp4",
-     "uptime_1d": 100
+     "tag": "inference-net/fp4"
     },
     {
      "cache_read": 0.0255,
@@ -2207,8 +2033,7 @@
      "output": 0.425,
      "provider": "Phala",
      "quantization": "nvfp4",
-     "tag": "phala/nvfp4",
-     "uptime_1d": 99.93031358885017
+     "tag": "phala/nvfp4"
     },
     {
      "cache_read": 0.03,
@@ -2218,8 +2043,7 @@
      "output": 0.4375,
      "provider": "DigitalOcean",
      "quantization": "unknown",
-     "tag": "digitalocean",
-     "uptime_1d": 100
+     "tag": "digitalocean"
     },
     {
      "cache_read": 0.024,
@@ -2229,8 +2053,7 @@
      "output": 0.47,
      "provider": "Makora",
      "quantization": "unknown",
-     "tag": "makora",
-     "uptime_1d": 98.19102749638205
+     "tag": "makora"
     },
     {
      "cache_read": 0.03,
@@ -2240,8 +2063,7 @@
      "output": 0.5,
      "provider": "PrimeIntellect",
      "quantization": "unknown",
-     "tag": "primeintellect",
-     "uptime_1d": 100
+     "tag": "primeintellect"
     },
     {
      "cache_read": 0.03,
@@ -2251,8 +2073,7 @@
      "output": 0.5,
      "provider": "Modal",
      "quantization": "nvfp4",
-     "tag": "modal/nvfp4",
-     "uptime_1d": 100
+     "tag": "modal/nvfp4"
     },
     {
      "cache_read": 0.03,
@@ -2262,8 +2083,7 @@
      "output": 0.5,
      "provider": "BaseTen",
      "quantization": "fp8",
-     "tag": "baseten/fp8/us",
-     "uptime_1d": 99.92548435171386
+     "tag": "baseten/fp8/us"
     },
     {
      "cache_read": 0.03,
@@ -2273,8 +2093,7 @@
      "output": 0.5,
      "provider": "Crusoe",
      "quantization": "fp4",
-     "tag": "crusoe/fp4",
-     "uptime_1d": 100
+     "tag": "crusoe/fp4"
     },
     {
      "cache_read": 0.02,
@@ -2284,8 +2103,7 @@
      "output": 0.5,
      "provider": "CoreWeave",
      "quantization": "nvfp4",
-     "tag": "coreweave/nvfp4",
-     "uptime_1d": 100
+     "tag": "coreweave/nvfp4"
     },
     {
      "cache_read": 0.03,
@@ -2295,8 +2113,7 @@
      "output": 0.5,
      "provider": "AtlasCloud",
      "quantization": "fp8",
-     "tag": "atlas-cloud/fp8",
-     "uptime_1d": 73.80224260958205
+     "tag": "atlas-cloud/fp8"
     },
     {
      "cache_read": 0.03,
@@ -2306,8 +2123,7 @@
      "output": 0.5,
      "provider": "Fireworks",
      "quantization": "unknown",
-     "tag": "fireworks",
-     "uptime_1d": 100
+     "tag": "fireworks"
     },
     {
      "cache_read": 0.03,
@@ -2317,8 +2133,7 @@
      "output": 0.5,
      "provider": "Friendli",
      "quantization": "unknown",
-     "tag": "friendli",
-     "uptime_1d": 99.93055555555556
+     "tag": "friendli"
     },
     {
      "cache_read": 0.03,
@@ -2328,8 +2143,7 @@
      "output": 0.5,
      "provider": "SiliconFlow",
      "quantization": "fp8",
-     "tag": "siliconflow/fp8",
-     "uptime_1d": 99.52305246422894
+     "tag": "siliconflow/fp8"
     },
     {
      "cache_read": 0.03,
@@ -2339,8 +2153,7 @@
      "output": 0.5,
      "provider": "Together",
      "quantization": "unknown",
-     "tag": "together",
-     "uptime_1d": 99.93055555555556
+     "tag": "together"
     },
     {
      "cache_read": 0.03,
@@ -2350,8 +2163,7 @@
      "output": 0.5,
      "provider": "Parasail",
      "quantization": "fp4",
-     "tag": "parasail/fp4",
-     "uptime_1d": 100
+     "tag": "parasail/fp4"
     },
     {
      "cache_read": 0.03,
@@ -2361,8 +2173,7 @@
      "output": 0.5,
      "provider": "BaseTen",
      "quantization": "fp8",
-     "tag": "baseten/fp8",
-     "uptime_1d": 99.86111111111111
+     "tag": "baseten/fp8"
     },
     {
      "cache_read": 0.03,
@@ -2372,8 +2183,7 @@
      "output": 0.5,
      "provider": "Venice",
      "quantization": "unknown",
-     "tag": "venice",
-     "uptime_1d": 99.72164231036882
+     "tag": "venice"
     },
     {
      "cache_read": 0.03,
@@ -2383,8 +2193,7 @@
      "output": 0.5,
      "provider": "Z.AI",
      "quantization": "fp8",
-     "tag": "z-ai/fp8",
-     "uptime_1d": 99.93055555555556
+     "tag": "z-ai/fp8"
     },
     {
      "cache_read": 0.0375,
@@ -2394,8 +2203,7 @@
      "output": 0.625,
      "provider": "Parasail",
      "quantization": "fp4",
-     "tag": "parasail/fast",
-     "uptime_1d": 100
+     "tag": "parasail/fast"
     },
     {
      "cache_read": 0.045,
@@ -2405,8 +2213,7 @@
      "output": 0.75,
      "provider": "Fireworks",
      "quantization": "unknown",
-     "tag": "fireworks/us",
-     "uptime_1d": 100
+     "tag": "fireworks/us"
     },
     {
      "cache_read": 0.075,
@@ -2416,8 +2223,7 @@
      "output": 0.7,
      "provider": "NextBit",
      "quantization": "fp4",
-     "tag": "nextbit/fp4",
-     "uptime_1d": 100
+     "tag": "nextbit/fp4"
     }
    ],
    "name": "Z.ai: GLM 5.3 Flash",
@@ -2446,6 +2252,6 @@
    ]
   }
  },
- "fetched_at": "2026-10-19T07:36:38+00:00",
+ "fetched_at": "2026-10-19T07:48:21+00:00",
  "source_url": "https://openrouter.ai/api/v1/models"
 }

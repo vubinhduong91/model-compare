@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Coding Model Compare</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.6.0/echarts.min.js"></script>
+  <script src="data.js"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <div class="title-row">
+        <div>
+          <h1 data-i18n="title"></h1>
+          <p class="sub" id="subtitle"></p>
+        </div>
+        <div class="toggles">
+          <div class="seg" id="lang-seg" role="group" aria-label="Language">
+            <button type="button" data-lang="vi">VI</button>
+            <button type="button" data-lang="en">EN</button>
+          </div>
+          <div class="seg" id="theme-seg" role="group" aria-label="Theme">
+            <button type="button" data-theme-choice="auto" data-i18n="theme_auto"></button>
+            <button type="button" data-theme-choice="light" data-i18n="theme_light"></button>
+            <button type="button" data-theme-choice="dark" data-i18n="theme_dark"></button>
+          </div>
+        </div>
+      </div>
+      <div class="filters" id="group-filters"></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="sec-summary">
+      <h2 data-i18n="sec_summary"></h2>
+      <p class="desc" id="summary-lead"></p>
+      <div class="tiles" id="tiles"></div>
+      <ul class="highlights" id="highlights"></ul>
+    </section>
+
+    <section id="sec-scatter">
+      <h2 data-i18n="sec_scatter"></h2>
+      <p class="desc" data-i18n="scatter_desc"></p>
+      <div class="controls">
+        <span data-i18n="presets"></span>
+        <span id="presets"></span>
+      </div>
+      <div class="controls">
+        <label><span data-i18n="axis_y"></span> <select id="sel-y"></select></label>
+        <label><span data-i18n="axis_x"></span> <select id="sel-x"></select></label>
+        <label><input type="checkbox" id="log-x"> <span data-i18n="log_x"></span></label>
+      </div>
+      <div class="chart" id="scatter"></div>
+      <p class="note" id="scatter-missing"></p>
+    </section>
+
+    <section id="sec-bench">
+      <h2 data-i18n="sec_bench"></h2>
+      <p class="desc" data-i18n="bench_desc"></p>
+      <div class="legend" data-legend></div>
+      <div class="grid" id="bench-grid"></div>
+    </section>
+
+    <section id="sec-price">
+      <h2 data-i18n="sec_price"></h2>
+      <p class="desc" data-i18n="price_desc"></p>
+      <div class="legend" data-legend></div>
+      <div class="grid" id="price-grid"></div>
+    </section>
+
+    <section id="sec-speed">
+      <h2 data-i18n="sec_speed"></h2>
+      <p class="desc" data-i18n="speed_desc"></p>
+      <div class="legend" data-legend></div>
+      <div class="grid" id="speed-grid"></div>
+    </section>
+
+    <section id="sec-table">
+      <h2 data-i18n="sec_table"></h2>
+      <p class="desc" data-i18n="table_desc"></p>
+      <div class="table-wrap"><table id="matrix"></table></div>
+    </section>
+
+    <section id="sec-calc">
+      <h2 data-i18n="sec_calc"></h2>
+      <p class="desc" data-i18n="calc_desc"></p>
+      <div class="controls">
+        <span data-i18n="presets"></span>
+        <span id="calc-presets"></span>
+      </div>
+      <div class="calc-form" id="calc-form"></div>
+      <div class="legend" data-legend></div>
+      <div class="chart" id="calc-chart"></div>
+      <p class="note" data-i18n="calc_note"></p>
+      <div class="table-wrap" style="margin-top:10px"><table id="calc-table"></table></div>
+
+      <h2 style="margin-top:22px" data-i18n="sec_plans"></h2>
+      <p class="desc" data-i18n="plans_desc"></p>
+      <div class="table-wrap"><table id="plans"></table></div>
+    </section>
+
+    <section id="sec-sources">
+      <h2 data-i18n="sec_sources"></h2>
+      <ul class="plain" id="sources"></ul>
+      <h3 style="margin-top:14px" data-i18n="method_title"></h3>
+      <ul class="plain" id="method"></ul>
+      <h3 style="margin-top:14px" data-i18n="gaps_title"></h3>
+      <ul class="plain" id="gaps"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <span data-i18n="footer"></span> <code>python scripts/update.py</code>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

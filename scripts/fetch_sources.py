@@ -62,7 +62,6 @@ def fetch_openrouter(models: list[dict]) -> None:
                 "input": per_million(p.get("prompt")),
                 "output": per_million(p.get("completion")),
                 "cache_read": per_million(p.get("input_cache_read")),
-                "uptime_1d": e.get("uptime_last_1d"),
             })
         out[or_id] = {
             "name": info.get("name"),
